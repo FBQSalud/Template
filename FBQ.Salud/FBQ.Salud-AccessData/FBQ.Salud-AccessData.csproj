@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>FBQ.Salud_AccessData</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FBQ.Salud-Application\FBQ.Salud-Application.csproj" />
+    <ProjectReference Include="..\FBQ.Salud-Domain\FBQ.Salud-Domain.csproj" />
+  </ItemGroup>
+
+</Project>
